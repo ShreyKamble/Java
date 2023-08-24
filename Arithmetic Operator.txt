@@ -1,0 +1,20 @@
+class JavaClass {
+    public static void main(String[] args) {
+    	// 1)Arithmetic Operator
+    	// i)Binary Operator
+    	//Addition, Subtraction, Multiplication, Division & Modulo(Reminder)
+    	int a = 29;
+    	int b = 45;
+    	int sum = a + b;
+        int diff = a - b;
+        int mul = a * b ;
+        int div = a / b;
+        int mod = a % b;
+    
+    	System.out.println(sum);
+    	System.out.println(diff);
+    	System.out.println(mul);
+    	System.out.println(div);
+    	System.out.println(mod);
+    }
+}

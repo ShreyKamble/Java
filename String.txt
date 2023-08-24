@@ -1,0 +1,27 @@
+class JavaClass {
+    public static void main(String[] args) {
+    	//Creating String
+    	String name1 = "Shreyash";
+    	System.out.println(name1);
+    	
+        //Another way to Creating String by using keyword new
+    	String name2 = new String("Abhishek");
+    	System.out.println(name2);
+    	
+    	//Concatenate (Addition)
+    	String name3 = name1 + " " + name2;
+    	System.out.println(name3);
+    	
+    	//Length
+    	System.out.println(name1.length());
+    	
+    	//Position Of Character
+    	System.out.println(name1.charAt(4));
+    	
+    	//Replace One Character with another
+    	System.out.println(name2.replace('b', 'd'));
+    	
+    	//Substring From Original String
+    	System.out.println(name1.substring(0,6));
+    }
+}

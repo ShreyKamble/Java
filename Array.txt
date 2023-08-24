@@ -1,0 +1,24 @@
+class JavaClass {
+    public static void main(String[] args) {
+    	//Array Creation
+    	int[] marks = new int[3];
+    	
+    	marks[0] = 97;
+    	marks[1] = 98;
+    	marks[2] = 89;
+    	
+    	System.out.println(marks[2]);
+    	
+    	//Length
+    	System.out.println(marks.length);
+    	
+    	//Array Creation By Curly Brackets
+    	int[] phy = {67, 78, 90}; //1D Array
+    	System.out.println(phy[2]);
+    	
+    	//2D Array
+    	int[][] Chem = {{67,89,87},{56,78,98}};
+    	System.out.println(Chem[0][2]); 
+    	System.out.println(Chem[1][3]);
+    }
+}
