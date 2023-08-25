@@ -1,0 +1,14 @@
+class JavaClass {
+    public static void main(String[] args) {
+    	//Implicit ---> Compiler Automatically Convert One Datatype to Another.
+    	int a = 20;
+    	double b = a;
+    	 
+    	System.out.println(b);
+    	//Explicit ---> We Manually Convert One Datatype to Another.
+    	double c = 345.7d;
+    	int d = (int)c;
+    	
+    	System.out.println(d); 
+    }
+}
