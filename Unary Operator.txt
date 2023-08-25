@@ -1,0 +1,36 @@
+1)Arithmetic Operator
+ii)unary Operator
+a)Increment
+Pre-Increment(++a)
+
+    	 int a = 10;
+    	 int b = ++a;
+
+    	 System.out.println(a);
+    	 System.out.println(b);
+
+// Post-Increment(++a)
+
+      int a = 10;
+    	int b = a++;
+    
+    	System.out.println(a);
+    	System.out.println(b);
+
+b)Decrement
+Pre-Decrement(--a)
+
+    	 int a = 10;
+    	 int b = --a;
+    
+    	 System.out.println(a);
+    	 System.out.println(b);	 
+
+Post-Decrement(a--)
+
+       int a = 10;
+    	 int b = a--;
+    
+    	 System.out.println(a);
+    	 System.out.println(b);	
+
