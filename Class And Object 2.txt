@@ -1,0 +1,32 @@
+class Students{
+	int RollNo;
+	String Name;
+	int Age;
+	
+	public void Write() {
+		System.out.println("Sutdents Deatils:");
+	}
+	public void Print() {
+		System.out.println(this.RollNo);
+		System.out.println(this.Name);
+		System.out.println(this.Age);
+	}
+}
+
+public class JavaClass {
+    public static void main(String[] args) {
+    	Students S1 = new Students();
+        S1.RollNo = 1;
+        S1.Name = "Shreyash";
+        S1.Age = 21;
+        
+        Students S2 = new Students();
+        S2.RollNo = 2;
+        S2.Name = "Umesh";
+        S2.Age = 20;
+        
+        S2.Write();
+        S1.Print();
+        S2.Print();
+    }
+}

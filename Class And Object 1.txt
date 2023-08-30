@@ -1,0 +1,29 @@
+class Pen{  //Class
+	int Price;
+	String Color;
+	
+	public void Write() {
+		System.out.println("Write Something");
+	}
+	public void Print() {
+		System.out.println(this.Price);
+		System.out.println(this.Color);
+	}
+}
+
+public class JavaClass {   //Class
+    public static void main(String[] args) {
+    	Pen Pen1 = new Pen(); //Object
+    	Pen1.Price = 20;
+    	Pen1.Color = "Red";
+    	
+    	Pen Pen2 = new Pen(); //Object
+    	Pen2.Price = 10;
+    	Pen2.Color = "Blue";
+    	
+    	Pen1.Write();
+        Pen1.Print();
+        Pen2.Print();
+    	
+    }
+}
