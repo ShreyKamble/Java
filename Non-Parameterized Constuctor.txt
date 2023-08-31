@@ -1,0 +1,25 @@
+class Student{
+	int RollNo;
+	String Name;
+	int Age;
+	
+	public void Print() {
+		System.out.println(this.RollNo);
+		System.out.println(this.Name);
+		System.out.println(this.Age);
+	}
+	
+	Student(){
+		System.out.println("Non-Parameterized Constuctor");
+	}
+}
+public class JavaClass {
+    public static void main(String[] args) {
+    	Student S1 = new Student();
+        S1.RollNo = 1;
+        S1.Name = "Shreyash";
+        S1.Age = 21;
+        
+        S1.Print();
+    }
+}

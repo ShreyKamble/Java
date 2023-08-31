@@ -1,0 +1,31 @@
+class Student{
+	int RollNo;
+	String Name;
+	int Age;
+	
+	public void Print(int RollNo) {
+		System.out.println(RollNo);
+	}
+	public void Print(String Name) {
+		System.out.println(Name);
+	}
+	public void PrintInfo(int Age) {
+		System.out.println(Age);
+	}
+	public void Print(int RollNo, String Name) {
+		System.out.println(RollNo + " " + "And" + " " + Name);
+	}
+}
+public class JavaClass {
+    public static void main(String[] args) {
+    	Student S1 = new Student();
+        S1.RollNo = 1;
+        S1.Name = "Shreyash";
+        S1.Age = 21;
+        
+        S1.Print(S1.Name);
+        S1.Print(S1.RollNo);
+        S1.PrintInfo(S1.Age);
+        S1.Print(S1.RollNo, S1.Name);
+    }
+}
