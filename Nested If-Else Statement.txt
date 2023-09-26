@@ -1,0 +1,19 @@
+public class JavaClass {
+	public static void main (String[] args){
+		int age = 17;
+		boolean isStudent = false;
+
+		if (age >= 18) {
+		    System.out.println("You are an adult.");
+		    if (isStudent) {
+		        System.out.println("You are a student.");
+		    } else {
+		        System.out.println("You are not a student.");
+		    }
+		} else {
+		    System.out.println("You are a minor.");
+		}
+
+    	
+	}
+}
