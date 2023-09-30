@@ -1,0 +1,12 @@
+public class JavaClass {
+	enum DaysOfWeek {
+		MONDAY, TUESDAY, WEDNESDAY, THURSDAY, SATURDAY, SUNDAY
+	}
+	
+	public static void main (String[] args){
+		DaysOfWeek Today = DaysOfWeek.MONDAY;
+		
+		System.out.println(Today);
+			
+	}
+}

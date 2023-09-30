@@ -1,0 +1,36 @@
+
+public class JavaClass {
+	enum DaysOfWeek {
+		MONDAY, TUESDAY, WEDNESDAY, THURSDAY, SATURDAY, SUNDAY
+	}
+	
+	public static void main (String[] args){
+		DaysOfWeek Today = DaysOfWeek.MONDAY;
+		
+		switch(Today) {
+		case MONDAY:
+			System.out.println("It's MONDAY");
+			break;
+			
+		case TUESDAY:
+			System.out.println("It's TUESDAY");
+			break;
+			
+		case WEDNESDAY:
+			System.out.println("It's WEDNESDAY");
+			break;
+
+		case THURSDAY:
+			System.out.println("It's THURSDAY");
+			break;
+
+		case SATURDAY:
+			System.out.println("It's SATURDAY");
+			break;
+			
+		case SUNDAY:
+			System.out.println("It's SUNDAY");
+        break;
+		}
+	}
+}
