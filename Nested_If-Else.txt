@@ -1,0 +1,25 @@
+public class JavaClass {
+	public static void main (String[] args){
+	
+		int x = 5;
+        int y = 10;
+
+        if (x > 0) {
+            System.out.println("x is positive");
+
+            if (y > 0) {
+                System.out.println("y is also positive");
+            } else {
+                System.out.println("y is not positive");
+            }
+        } else {
+            System.out.println("x is not positive");
+
+            if (y > 0) {
+                System.out.println("y is positive");
+            } else {
+                System.out.println("y is not positive");
+            }
+        }
+    }
+}
