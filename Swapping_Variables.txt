@@ -1,3 +1,4 @@
+//Swapping Two Variables By Using Third(Another) Variable.
 public class JavaClass {
 	public static void main (String[] args){
 		int a = 20;
@@ -15,3 +16,45 @@ public class JavaClass {
 		System.out.println(b);
 	}
 }
+
+//Swapping Two Variables By Using Addition And Subtraction.
+public class JavaClass {
+	public static void main (String[] args){
+	
+				int a = 20;
+				int b = 30;
+				
+				//Before Swapping
+				System.out.println(a);
+				System.out.println(b);
+		
+				a = a - b;
+				b = a + b;
+				a = b - a;
+				
+				//After Swapping
+				System.out.println(a);
+				System.out.println(b);
+			}
+		}
+
+//Swapping Two Variables By Using Addition And Subtraction.
+public class JavaClass {
+	public static void main (String[] args){
+	
+				int a = 20;
+				int b = 30;
+				
+				//Before Swapping
+				System.out.println(a);
+				System.out.println(b);
+		
+				a = a ^ b;
+				b = a ^ b;
+				a = a ^ b;
+				
+				//After Swapping
+				System.out.println(a);
+				System.out.println(b);
+			}
+		}
