@@ -1,0 +1,32 @@
+import java.util.Vector;
+
+public class JavaClass {
+	public static void main (String[] args){
+	
+		Vector V = new Vector ();
+		//Adding Element To Vector
+		Vector.add(1);
+		Vector.add(2);
+		Vector.add(4);
+		Vector.add(5);
+		System.out.println(Vector);
+		
+		//Removing Element From Vector
+		Vector.remove(0);  
+		System.out.println(Vector);
+		
+		//Updating An Element At Specified Index
+            Vector.set(0, 6);
+		System.out.println(Vector);
+		
+		//Accessing Elements Using An Index
+		System.out.println(Vector.get(1));
+		
+		//Removing An Element Form Vector
+            Vector.remove(1);
+            System.out.println(Vector);
+        
+            Vector.removeElementAt(2);
+            System.out.println(Vector);
+	}
+}
