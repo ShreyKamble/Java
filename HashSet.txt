@@ -1,0 +1,49 @@
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class JavaClass {
+	public static void main (String[] args){
+		HashSet<Integer> set = new HashSet<Integer>();
+
+       //Adding Elements In HashSet
+		set.add(1);
+		set.add(2);
+		set.add(6);
+		set.add(3);
+		set.add(2);
+		
+		System.out.println(set);
+
+
+      //Searching An Element By Using Contains
+      if (set.contains(7))
+    	  System.out.println("Set Contains 1");
+      else {
+			   System.out.println("Not Contain 1");
+		}
+      //Checking Negative Condition
+		if (!set.contains(5)){
+			System.out.println("Set Not Contains 5");
+		}
+
+     //Removing Element From HashSet
+     set.remove(2);
+     System.out.println(set);
+     if (!set.contains(2)){
+    	 System.out.println("Set Not Contains 2, We Deleted It");
+     }
+		
+
+      //Size Of HashSet
+      System.out.println(set.size());
+
+      //To Print All Elements From HashSet
+      System.out.println(set);
+
+     //Iterates The HashSet
+      Iterator it = set.iterator();
+		while (it.hasNext()) {
+			System.out.println(it.next());
+			}
+		}
+}

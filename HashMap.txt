@@ -1,0 +1,54 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+public class JavaClass {
+	public static void main (String[] args){
+		HashMap<Integer, String> map = new HashMap<Integer, String>();
+		
+		//Adding Elements In HashMap
+		map.put(1, "Shreyash");
+		map.put(2, "Aashish");
+		map.put(3, "Shreyash");
+		map.put(4, "Priya");
+		map.put(5, "Katrina");
+		
+		System.out.println(map);
+		
+		//Searching Pair From HashMap
+		//1]containsKey
+		if(map.containsKey(2)) {
+			System.out.println("Key Exists");
+		}
+		if(!map.containsKey(6)) {
+			System.out.println("Key Not Exists");
+		}
+		//2]containsValue
+		if(map.containsValue("Shreyash")) {
+			System.out.println("Value Exists");
+		}
+		if(!map.containsValue("Atharv")) {
+			System.out.println("Value Not Exists");
+		}
+		
+		//Getting Value Of Key By Using .get()Function
+		System.out.println(map.get(1));
+		
+		//Removing Element From HashMap
+		map.remove(3);
+		System.out.println(map);
+		
+		//Iteration With The Help Of Loop
+		for(Map.Entry<Integer, String> e : map.entrySet()) {
+			System.out.println(e.getValue());
+			System.out.println(e.getKey());
+		}
+		
+		////Iteration With The Help Of Set
+		Set <Integer> keys = map.keySet();
+		for (Integer key : keys) {
+			System.out.println(key +" " +map.get(key));
+		}
+	}
+}
