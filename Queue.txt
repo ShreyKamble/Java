@@ -1,0 +1,24 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class JavaClass {
+	public static void main (String[] args){
+		Queue<Integer> queue = new LinkedList<Integer>();
+		
+		//Add Element In Queue
+		queue.add(11);
+		queue.add(45);
+		queue.offer(28);
+		queue.add(36);
+		System.out.println(queue);
+		
+		//Remove Element From Queue
+		System.out.println(queue.poll());
+		System.out.println(queue);
+		
+		//Peek / Search Top Element From Queue
+		System.out.println(queue.peek());
+		
+		System.out.println(queue.size());
+	}
+}
