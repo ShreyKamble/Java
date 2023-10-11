@@ -1,0 +1,26 @@
+import java.util.PriorityQueue;
+
+public class JavaClass {
+	public static void main (String[] args){
+		PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+		
+		//Add Element In PriorityQueue
+		pq.add(11);
+		pq.offer(45);
+		pq.offer(28);
+		pq.add(36);
+		pq.add(34);
+		System.out.println(pq);
+		
+		//Peek / Search Top Element From PriorityQueue
+		System.out.println(pq.peek());
+				
+		//Remove Element From PriorityQueue
+		System.out.println(pq.remove());
+		//System.out.println(pq.poll());
+		System.out.println(pq);
+		
+		//Size Of The PriorityQueue
+		System.out.println(pq.size());
+	}
+}
