@@ -5,7 +5,7 @@ public class JavaClass {
 	public static void main (String[] args){
 		Deque<Integer> deque = new ArrayDeque<Integer>();
 		
-		//Add Element In Queue
+		//Add Element In Deque
 		deque.addLast(11);
 		deque.offerFirst(45);
 		deque.offerLast(28);
@@ -13,12 +13,12 @@ public class JavaClass {
 		deque.addFirst(34);
 		System.out.println(deque);
 		
-		//Remove Element From Queue
+		//Remove Element From Deque
 		System.out.println(deque.removeFirst());
 		System.out.println(deque.pollLast());
 		System.out.println(deque);
 		
-		//Peek / Search Top Element From Queue
+		//Peek / Search Top Element From Deque
 		System.out.println(deque.peek());
 		
 		//Size Of The Deque
