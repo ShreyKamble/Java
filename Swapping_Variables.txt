@@ -38,7 +38,7 @@ public class JavaClass {
 			}
 		}
 
-//Swapping Two Variables By Using Addition And Subtraction.
+//Swapping Two Variables By Using Bitwise XOR.
 public class JavaClass {
 	public static void main (String[] args){
 	
