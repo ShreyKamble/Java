@@ -1,0 +1,24 @@
+import java.util.TreeSet;
+
+public class JavaClass {
+	public static void main (String[] args){
+		TreeSet<String> ts = new TreeSet<String>();
+		
+		//Add Element In TreeSet
+		ts.add("S");
+		ts.add("A");
+		ts.add("B");
+		ts.add("B");
+		
+		ts.add("K");
+		ts.add("G");
+		System.out.println(ts);
+				
+		//Remove Element From TreeSet
+		System.out.println(ts.remove("B"));
+		System.out.println(ts);
+		
+		//Size Of The TreeSet
+		System.out.println(ts.size());
+	}
+}
